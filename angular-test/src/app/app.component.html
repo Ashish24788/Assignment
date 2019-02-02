@@ -1,0 +1,56 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div>
+<ul>
+  <li>
+    <h3>
+      <app-marco-polo></app-marco-polo>
+    </h3>
+  </li>
+  <li>
+    <ol>
+      <h2>Imports, Declarations And Providers</h2>
+      <li>
+        Imports: is used to makes the exported declarations of other modoles available in the current module
+      </li>
+      <li>
+        Declarations: is used to declare components, directives, pipes that belongs to the current module. Everything
+        inside declarations knows each other.
+      </li>
+      <li>
+        Providers: are used to make services and values known to dependency injection. They are added to the root scope
+        and they are injected to other services or directives that have them as dependency.
+      </li>
+    </ol>
+    <ol>
+      <h2>Components, Directives, Models, Modules, and Services</h2>
+      <li>
+        Components: are basically classes that interact with the html file of the component, which gets
+        displayed on the browser.
+      </li>
+      <li>
+        Directives: it exend the scope of html, are responsible for updating the DOM when the state of the model
+        changes.
+      </li>
+      <li>
+        Models: are used to make services and values known to dependency injection. They are added to the root scope
+        and they are injected to other services or directives that have them as dependency.
+      </li>
+      <li>
+        Modules: are used to configure the dependency injection, allowing the things defined by the module to be
+        injected elsewhere.
+      </li>
+      <li>
+        Services: are a great way to share information among classes that don't know each other.
+      </li>
+    </ol>
+  </li>
+  <li>
+    <h2>
+      <app-ascii-chart></app-ascii-chart>
+    </h2>
+  </li>
+</ul>

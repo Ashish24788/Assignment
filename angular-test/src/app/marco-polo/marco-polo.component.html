@@ -1,0 +1,6 @@
+<p>
+  <button type="button" [ngClass]="{showGoalOne:!showGoalOneResult, hideGoalOne:showGoalOneResult}" (click)="printMarcoPolo(100)">{{buttonTitle}}</button>
+</p>
+<p *ngIf="showGoalOneResult">
+  {{goalOneResult}}
+</p>
